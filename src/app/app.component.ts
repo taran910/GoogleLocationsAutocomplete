@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'rou';
+  formattedaddress=" ";
+  options={
+    componentRestrictions:{
+      country:["AU"]
+    }
+  }
+  public handleAddressChange(address: any) {
+   this.formattedaddress=address.formatted_address
+}
 }
