@@ -1,3 +1,22 @@
+# Introduction
+
+This project show how to use Google Locations Autocomplete API to Automatically get suggestions for locations to be entered.
+
+When user will enter some text for a location in the Textfield, he/she will get locations recommendations and can autocomplete the location. For achieving the target, we will use ngx-google-places-autocomplete angular package.
+
+**What is ngx-google-places-autocomplete ?**
+
+This module is a wrapper for Google Places Autocomplete js library. It allows us to integrate locations autocomplete to our project.
+
+First install ngx-google-places-autocomplete to your angular project
+
+**npm install ngx-google-places-autocomplete
+**
+
+For More Information about this project, you can follow my article:
+[https://www.geeksforgeeks.org/how-to-add-google-locations-autocomplete-to-your-angular-application/
+](url)
+
 # Rou
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
